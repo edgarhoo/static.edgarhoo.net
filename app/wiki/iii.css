@@ -1,0 +1,209 @@
+/***
+ * for justkit.im
+ */
+
+@import url(http://static.edgarhoo.net/sys/highlight/sh.css);
+
+@font-face{
+    font-family: 'Inconsolata';
+    src: url(http://assets.edgarhoo.net/fonts/Inconsolata.ttf);
+}
+
+html{
+    background: #fff;
+    overflow-y: scroll;
+}
+
+body{
+    margin: 0;
+    font: 16px/1.5 "Inconsolata", Georgia, "\6587\6CC9\9A7F\5FAE\7C73\9ED1", "\5FAE\8F6F\96C5\9ED1", Times, sans-serif;
+    padding: 0;
+    color: #333;
+}
+
+img, fieldset{
+    border: 0 none;
+}
+
+article, aside, footer, header, hgroup, nav, section, /* section elements */
+figcaption, /* grouping elements */
+details, summary{ /* interactive elements */
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+blockquote{
+    padding: 3px 6px;
+    background-color: #f0f0f0;
+}
+
+table{
+    border-spacing: 1px;
+}
+
+table tr:nth-child(2n){
+    background: #f0f0f0;
+}
+
+table tr:nth-child(2n+1){
+    background: #f8f8f8;
+}
+
+table thead tr:nth-child(2n+1){
+    background: #f0f0f0;
+}
+
+table th,
+table td{
+    padding: 2px 8px;
+}
+
+a:link,
+a:visited{
+    color: #00e;
+}
+
+a:hover,
+a:active{
+    color: #c00;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: #ff7d00 dashed 1px;
+}
+
+iframe{
+    border: 0 none;
+    width: 100%;
+}
+
+
+header{
+    position: fixed;
+    height: 100%;
+    width: 160px;
+    padding: 0 8px;
+    background: #1570a6;
+}
+header nav{
+    margin-top: 40px;
+}
+header nav ul{
+    list-style-position: inside;
+    padding-left: 0;
+    color: lawngreen;
+}
+header nav li{
+    padding: 2px 8px;
+}
+header nav .current{
+    background: steelblue;
+}
+header nav a:link,
+header nav a:visited{
+    color: lawngreen;
+}
+header p:nth-last-child(1){
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    color: azure;
+}
+
+aside{
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    padding-top: 34px;
+    background: lavender;
+    left: 176px;
+    font-size: 14px;
+    overflow: auto;
+}
+aside h1{
+    font-size: 16px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 8px 0;
+    line-height: 2.4;
+    padding-left: 16px;
+}
+aside ul{
+    padding-left: 16px;
+    list-style-type: square;
+    color: green;
+    line-height: 28px;
+    list-style-position: inside;
+}
+aside ul a:link,
+aside ul a:visited{
+    color: green;
+}
+aside h1 a:link,
+aside h1 a:visited{
+    color: #333;
+    text-decoration: underline;
+}
+
+article{
+    margin-left: 376px;
+    padding: 20px 80px 80px 40px;
+    max-width: 860px;
+    min-width: 400px;
+    line-height: 2;
+}
+article h1{
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    color: #222;
+}
+article h2{
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    color: #222;
+}
+article h3{
+    font-size: 18px;
+}
+article p{
+    margin: 4px 0 8px;
+}
+article p strong{
+    color: #e31000;
+}
+article p code,
+article li code,
+article h3 code{
+    border: 1px solid cornflowerblue;
+    background: #f8f8f8;
+    padding: 1px 5px;
+    margin: 0 2px;
+    border-radius: 3px;
+    color: #333;
+    font-family: "Courier New", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+article table{
+    margin: 1em 0;
+}
+
+article pre.sh_sourceCode{
+    border-color: cornflowerblue;
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+article pre.sh_sourceCode.wrong{
+    border-color: #c00;
+}
+
+.demo{
+    border: 1px solid #ccc;
+    margin: 24px 0;
+    padding: 16px;
+}

@@ -1,0 +1,150 @@
+/**
+ * wiki i css
+ * @author Edgar
+ * @build 01.04.2011
+ */
+
+@import url(http://static.edgarhoo.net/sys/highlight/pygments.css);
+
+html{
+    background: #fff;
+    color: #000;
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    font: 16px/1.5 Arial, Helvetica, "\6587\6CC9\9A7F\5FAE\7C73\9ED1", "\5FAE\8F6F\96C5\9ED1", Times, sans-serif;
+    padding: 0 72px 24px;
+}
+img, fieldset{
+    border: 0 none;
+}
+article, aside, footer, header, hgroup, nav, section, /* section elements */
+figcaption, /* grouping elements */
+details, summary{ /* interactive elements */
+    display: block;
+}
+menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+figure{
+    display: block;
+    margin: 0;
+}
+output,time{
+    display: inline;
+}
+mark{
+    display: inline;
+    background: yellow;
+    color: #000;
+}
+address{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+article h1{
+    font-size: 24px;
+    border-bottom: 1px solid #aaa;
+    font-weight: normal;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 12px;
+}
+small{
+    font-size: 12px;
+}
+nav ol{
+    font-size: 14px;
+}
+blockquote{
+    padding: 3px 6px;
+    background-color: #f0f0f0;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 1px;
+    background: #ccc;
+}
+th{
+    background: #fff;
+    color: #333;
+}
+td{
+    background: #fff;
+}
+a:link,
+a:visited{
+    color: #00e;
+}
+a:hover,
+a:active{
+    color: #c00;
+    text-decoration: underline;
+}
+a:focus{
+    outline: #ff7d00 dashed 1px;
+}
+a[rel*="external"]{
+    background: url(http://static.edgarhoo.net/img/icon/out-site.png) no-repeat right;
+    padding-right: 16px !important;
+}
+
+header{
+    width: 800px;
+    min-height: 72px;
+}
+header h1{
+    font-size: 36px;
+}
+article{
+    width: 800px;
+}
+aside{
+    position: fixed;
+    top: 0;
+    left: 880px;
+    width: 200px;
+}
+aside nav{
+    background: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    padding: 4px 8px;
+
+}
+aside nav:first-child{
+    border-top: 0 none;
+}
+aside nav + nav{
+    margin: 16px 0;
+}
+aside nav > ol{
+    padding-left: 0;
+}
+aside nav ol ol{
+    padding-left: 20px;
+}
+aside nav li{
+    list-style-type: none;
+}
+aside nav li li{
+    width: 166px;
+    height: 21px;
+    text-overflow: ellipsis;
+}
+footer{
+    padding-top: 24px;
+}
+iframe{
+    border: 0 none;
+}

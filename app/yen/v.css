@@ -1,0 +1,36 @@
+/**
+ * yen-v css
+ * http://static.edgarhoo.net/css/app/yen/v.css
+ *
+ * Copyleft 2011, Edgar Hoo
+ * http://edgar.im/license/
+ *
+ * Date: June 16 2011 CST
+ */
+
+/* include reset.css */
+@import url(http://static.edgarhoo.net/css/sys/reset.css);
+
+/* grid */
+
+body{
+    padding:0 72px;
+}
+article{
+    min-width:800px;
+}
+
+/* common */
+a:link,a:visited{
+    color:blue;
+}
+a:hover,a:active{
+    color:red !important;
+}
+a:focus{
+    outline:#ff7d00 dashed 1px;
+}
+a[rel*="external"]{
+    background:url(http://static.edgar.im/img/icon/out-site.png) no-repeat right;
+    padding-right:16px !important;
+}

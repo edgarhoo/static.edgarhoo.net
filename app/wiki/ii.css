@@ -1,0 +1,149 @@
+/**
+ * Edgar's Wiki CSS v2
+ * @author Edgar
+ * @build 05.26.2012
+ */
+
+
+@import url(http://static.edgarhoo.net/sys/reset/base.css);
+@import url(http://static.edgarhoo.net/sys/highlight/pygments.css);
+
+article h1{
+    font-size: 24px;
+    border-bottom: 1px solid #aaa;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+small{
+    font-size: 12px;
+}
+
+nav ol{
+    font-size: 14px;
+}
+
+header{
+    width: 800px;
+    min-height: 72px;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+article{
+    width: 800px;
+}
+
+.demo{
+    border: 1px solid #ccc;
+    margin: 24px 0;
+    padding: 16px;
+}
+
+iframe{
+    width: 100%;
+}
+
+aside{
+    position: fixed;
+    top: 0;
+    left: 888px;
+    width: 200px;
+}
+
+aside nav{
+    background: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    padding: 4px 8px;
+
+}
+
+aside nav:first-child{
+    border-top: 0 none;
+}
+
+aside nav > a{
+    margin-right: 8px;
+}
+
+aside nav + nav{
+    margin: 16px 0;
+}
+
+aside nav > ol{
+    padding-left: 0;
+    margin: 8px 0;
+}
+
+aside nav ol ol{
+    padding-left: 20px;
+}
+
+aside nav li{
+    list-style-type: none;
+}
+
+aside nav li li{
+    width: 166px;
+    height: 21px;
+    text-overflow: ellipsis;
+}
+
+#directory{
+    position: absolute;
+    width: 184px;
+    display: none;
+}
+
+.icon-caret{
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    border: 5px solid;
+    border-color: #00e transparent transparent;
+}
+
+a:hover .icon-caret,
+a.triggered:hover .icon-caret{
+    border-color: #c00 transparent transparent;
+}
+
+#directory.triggered{
+    display: block;
+    border-color: #999;
+}
+
+a.triggered{
+    color: #444;
+}
+
+a.triggered:hover{
+    color: #c00;
+}
+
+a.triggered .icon-caret{
+    border-color: #666 transparent transparent;
+}
+
+footer{
+    padding-top: 24px;
+}
+
+.for-just{
+    display: none;
+}

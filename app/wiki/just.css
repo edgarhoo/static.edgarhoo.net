@@ -1,0 +1,180 @@
+/**
+ * just.fangdeng.org css
+ * @author Edgar
+ * @build 08.25.2012
+ */
+
+
+@import url(http://static.edgarhoo.net/sys/reset/base.css);
+@import url(http://static.edgarhoo.net/sys/highlight/pygments.css);
+
+body{
+    padding: 0;
+}
+#site-nav{
+    background: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    padding: 4px 16px;
+    margin: 0 72px;
+}
+#site-nav:after,
+#site-nav ul:after{
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+}
+#site-nav h1{
+    float: left;
+    margin: 0;
+    font-size: 20px;
+}
+#site-nav nav{
+    float: left;
+    padding: 3px 0 0 24px;
+}
+#site-nav nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#site-nav nav > ul > li{
+    float: left;
+    padding-right: 24px;
+    position: relative;
+}
+#site-nav nav > ul ul{
+    display: none;
+    position: absolute;
+    background: #f8f8f8;
+    border: 1px solid #999;
+    white-space: nowrap;
+    padding: 4px 8px;
+    top: 31px;
+}
+#site-nav nav > ul .triggered ul{
+    display: block;
+}
+.icon-caret{
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    border: 5px solid;
+    border-color: #00e transparent transparent;
+}
+.triggered > a{
+    color: #444;
+}
+.current a{
+    text-decoration: underline;
+}
+.triggered a:hover{
+    color: #c00;
+}
+.triggered a .icon-caret{
+    border-color: #666 transparent transparent;
+}
+a:hover .icon-caret{
+    border-color: #c00 transparent transparent;
+}
+iframe{
+    width: 100%;
+}
+
+#page{
+    padding: 0 72px 24px;
+}
+#page article h1{
+    font-size: 24px;
+    border-bottom: 1px solid #aaa;
+    font-weight: normal;
+}
+
+#page h2{
+    font-size: 20px;
+}
+
+#page h3{
+    font-size: 16px;
+}
+
+#page h4{
+    font-size: 12px;
+}
+
+small{
+    font-size: 12px;
+}
+
+#page nav ol{
+    font-size: 14px;
+}
+
+#page header{
+    width: 800px;
+    min-height: 72px;
+}
+
+#page header h1{
+    font-size: 36px;
+}
+
+#page article{
+    width: 800px;
+}
+
+.demo{
+    border: 1px solid #ccc;
+    margin: 24px 0;
+    padding: 16px;
+}
+#page aside{
+    position: fixed;
+    top: 0;
+    left: 888px;
+    width: 200px;
+}
+
+#page aside nav{
+    background: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    padding: 4px 8px;
+
+}
+
+#page aside nav:first-child{
+    border-top: 0 none;
+}
+
+#page aside nav > a{
+    margin-right: 8px;
+}
+
+#page aside nav + nav{
+    margin: 16px 0;
+}
+
+#page aside nav > ol{
+    padding-left: 0;
+    margin: 8px 0;
+}
+
+#page aside nav ol ol{
+    padding-left: 20px;
+}
+
+#page aside nav li{
+    list-style-type: none;
+}
+
+#page aside nav li li{
+    width: 166px;
+    height: 21px;
+    text-overflow: ellipsis;
+}
+
+footer{
+    padding-top: 24px;
+}

@@ -1,0 +1,127 @@
+/**
+ * reset for demo, source from fdev-v4 reset
+ * @author Edgar
+ * @build 05.15.2012
+ * */
+ 
+.demo h1,
+.demo h2,
+.demo h3,
+.demo h4,
+.demo h5,
+.demo h6,
+.demo hr,
+.demo p,
+.demo blockquote,
+.demo dl,
+.demo dt,
+.demo dd,
+.demo ul,
+.demo ol,
+.demo li,
+.demo pre,
+.demo fieldset,
+.demo lengend,
+.demo button,
+.demo input,
+.demo textarea,
+.demo form,
+.demo th,
+.demo td {
+    margin: 0;
+    padding: 0;
+}
+
+.demo,
+.demo button,
+.demo input,
+.demo select,
+.demo textarea {
+    font: 12px/1.5 Tahoma, Arial, "\5b8b\4f53", sans-serif;
+}
+
+.demo h1,
+.demo h2,
+.demo h3,
+.demo h4,
+.demo h5,
+.demo h6 { 
+	font-size:100%; 
+	font-weight:normal; 
+}
+
+.demo address,
+.demo cite,
+.demo dfn,
+.demo em,
+.demo var {
+    font-style: normal;
+}
+
+.demo code,
+.demo kbd,
+.demo pre,
+.demo samp,
+.demo tt {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.demo small {
+    font-size: 12px;
+}
+
+.demo ul,
+.demo ol {
+    list-style: none;
+}
+
+.demo a {
+    text-decoration: none;
+}
+
+.demo a:hover { 
+	text-decoration: underline;
+	color:#ff7300; 
+}
+
+.demo abbr[title],
+.demo acronym[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+.demo q:before,
+.demo q:after {
+    content: '';
+}
+
+.demo :focus{
+    outline:0;
+}
+
+.demo legend {
+    color: #000;
+}
+
+.demo fieldset,
+.demo img {
+    border: none;
+}
+
+.demo button,
+.demo input,
+.demo select,
+.demo textarea {
+    font-size: 100%;
+}
+
+.demo table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.demo hr {
+    border: none;
+    height: 1px;
+    *color: #fff;
+}
