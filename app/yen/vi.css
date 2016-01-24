@@ -1,0 +1,152 @@
+/**
+ * yen vi css
+ * @author 君復
+ * @build 01.24.2016
+ */
+
+@font-face { /* powered by http://fonts.googleapis.com/css?family=Crimson+Text */
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Crimson Text'), local('CrimsonText-Roman'), url('http://assets.edgarhoo.net/fonts/crimson-text.woff') format('woff');
+}
+
+html{
+    background: #fff;
+    color: #000;
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    font: 16px/1.5 "Crimson Text", Arial, Helvetica, PMingLiu, MingLiu, "Microsoft YaHei";
+    padding: 0 72px 24px;
+}
+article, aside, footer, header, hgroup, nav, section{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+article h1{
+    font-size: 24px;
+    border-bottom: 1px solid #aaa;
+    font-weight: normal;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 12px;
+}
+small{
+    font-size: 12px;
+}
+nav ol{
+    font-size: 14px;
+}
+blockquote{
+    padding: 3px 6px;
+    background-color: #f0f0f0;
+}
+a:link,
+a:visited{
+    color: #00e;
+}
+a:hover,
+a:active{
+    color: #c00;
+    text-decoration: underline;
+}
+a:focus{
+    outline: #ff7d00 dashed 1px;
+}
+
+header{
+    width: 800px;
+    min-height: 72px;
+}
+header h1{
+    font-size: 36px;
+}
+article{
+    width: 800px;
+}
+.width-auto article{
+    width: auto;
+}
+article + aside{
+    position: fixed;
+    top: 0;
+    left: 880px;
+    width: 200px;
+}
+aside nav{
+    background: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    padding: 4px 8px;
+}
+article + aside nav:first-child{
+    border-top: 0 none;
+}
+aside nav + nav{
+    margin: 16px 0;
+}
+aside nav > ol{
+    padding-left: 0;
+}
+aside nav li{
+    list-style-type: none;
+}
+aside + aside{
+    width: 800px;
+    margin-top: 60px;
+}
+aside nav h1{
+    margin: 0;
+}
+aside nav h1 + ol{
+    margin: 8px 0;
+}
+
+footer{
+    padding-top: 60px;
+}
+
+article li time{
+    display: inline-block;
+    padding-right: 32px;
+    font-family: "Courier New", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+aside li time{
+    padding-right: 16px;
+}
+
+.log time,
+.log .location,
+.log .weather{
+    color: #999;
+}
+.log article .location,
+.log article .weather{
+    padding-left: 4px;
+}
+
+table{
+    border-spacing: 1px;
+}
+table tr:nth-child(2n){
+    background: #f0f0f0;
+}
+table tr:nth-child(2n+1){
+    background: #fff;
+}
+table thead tr:nth-child(2n+1){
+    background: #f0f0f0;
+}
+table th,
+table td{
+    padding: 2px 8px;
+}
