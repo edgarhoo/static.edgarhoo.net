@@ -18,7 +18,7 @@ html{
 }
 body{
     margin: 0;
-    font: 16px/1.5 "Crimson Text", Arial, Helvetica, PMingLiu, MingLiu, "Microsoft YaHei";
+    font: 18px/1.5 "Crimson Text", Arial, Helvetica, PMingLiu, MingLiu, "Microsoft YaHei";
     padding: 0 72px 24px;
 }
 article, aside, footer, header, hgroup, nav, section{
@@ -28,24 +28,24 @@ a{
     text-decoration: none;
 }
 article h1{
-    font-size: 24px;
+    font-size: 28px;
     border-bottom: 1px solid #aaa;
     font-weight: normal;
 }
 h2{
-    font-size: 20px;
+    font-size: 24px;
 }
 h3{
-    font-size: 16px;
+    font-size: 20px;
 }
 h4{
-    font-size: 12px;
+    font-size: 18px;
 }
 small{
-    font-size: 12px;
+    font-size: 16px;
 }
 nav ol{
-    font-size: 14px;
+    font-size: 18px;
 }
 blockquote{
     padding: 3px 6px;
@@ -65,14 +65,14 @@ a:focus{
 }
 
 header{
-    width: 800px;
+    width: 1200px;
     min-height: 72px;
 }
 header h1{
     font-size: 36px;
 }
 article{
-    width: 1000px;
+    width: 1200px;
 }
 .width-auto article{
     width: auto;
