@@ -15,11 +15,18 @@ html{
     background: #fff;
     color: #000;
     overflow-y: scroll;
+    font-size: 100%;
 }
 body{
     margin: 0;
-    font: 18px/1.5 "Crimson Text", Arial, Helvetica, PMingLiu, MingLiu, "Microsoft YaHei";
-    padding: 0 72px 24px;
+    font: 1.125rem/1.5 "Crimson Text", Arial, Helvetica, PMingLiu, MingLiu, "Microsoft YaHei";
+    padding: 0 1rem 1.5rem;
+}
+@media ( min-width: 1200px ){
+    body{
+        padding-right: 4.5rem;
+        padding-left: 4.5rem;
+    }
 }
 article, aside, footer, header, hgroup, nav, section{
     display: block;
@@ -28,27 +35,27 @@ a{
     text-decoration: none;
 }
 article h1{
-    font-size: 28px;
+    font-size: 1.75rem;
     border-bottom: 1px solid #aaa;
     font-weight: normal;
 }
 h2{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 h3{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 h4{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 small{
-    font-size: 16px;
+    font-size: 1rem;
 }
 nav ol{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 blockquote{
-    padding: 3px 6px;
+    padding: 0.1875rem 0.375rem;
     background-color: #f0f0f0;
 }
 a:link,
@@ -65,73 +72,22 @@ a:focus{
 }
 
 header{
-    width: 1200px;
-    min-height: 72px;
+    max-width: 75rem;
+    min-height: 4.5rem;
 }
 header h1{
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 article{
-    width: 1200px;
+    max-width: 75rem;
 }
-.width-auto article{
-    width: auto;
-}
-article + aside{
-    position: fixed;
-    top: 0;
-    left: 880px;
-    width: 200px;
-}
-aside nav{
-    background: #f8f8f8;
-    border: 1px solid #e8e8e8;
-    padding: 4px 8px;
-}
-article + aside nav:first-child{
-    border-top: 0 none;
-}
-aside nav + nav{
-    margin: 16px 0;
-}
-aside nav > ol{
-    padding-left: 0;
-}
-aside nav li{
-    list-style-type: none;
-}
-aside + aside{
-    width: 800px;
-    margin-top: 60px;
-}
-aside nav h1{
-    margin: 0;
-}
-aside nav h1 + ol{
-    margin: 8px 0;
-}
-
 footer{
-    padding-top: 60px;
+    margin-top: 3.75rem;
+    padding-top: 0.5rem;
 }
-
-article li time{
-    display: inline-block;
-    padding-right: 32px;
-    font-family: "Courier New", "Bitstream Vera Sans Mono", Courier, monospace;
-}
-aside li time{
-    padding-right: 16px;
-}
-
-.log time,
-.log .location,
-.log .weather{
-    color: #999;
-}
-.log article .location,
-.log article .weather{
-    padding-left: 4px;
+footer:before{
+    display: block;
+    content: "-----";
 }
 
 table{
@@ -148,5 +104,5 @@ table thead tr:nth-child(2n+1){
 }
 table th,
 table td{
-    padding: 2px 8px;
+    padding: 0.125rem 0.5rem;
 }
